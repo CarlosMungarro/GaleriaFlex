@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Encabezado */
+.header {
+    background-color: darkgray;
+    color: black;
+    padding: 20px;
+}
+
+/* Galería */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery-item {
+    background: #f4f4f4;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: justify;
+    width: 250px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery-item p {
+    padding: 10px;
+    margin: 0;
+    background: #fff;
+}
+
+/* Pie de página */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
